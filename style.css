@@ -1,0 +1,92 @@
+
+/* Geral */
+body {
+  font-family: 'Dancing Script', 'Comic Sans MS', cursive;
+    display: fl;
+    padding: 20px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background: #ff69b4;
+    transition: background 0.3s ease;
+  }
+  
+  
+  /* Cabeçalho */
+  .header {
+    text-align: center;
+    padding: 10px 10px;
+    background: url('barbie-banner.jpg') no-repeat center;
+    background-size: cover;
+    background-size: contain;
+    color: #fff;
+    
+    
+  }
+  .logo{
+    display: flex;
+font-size: 40px;
+  
+  }
+  .navbar {
+    display: flex;
+    background-color: #ff69b4;
+    padding: 1px 0;
+    justify-content: center;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .menu li a:hover {
+    text-decoration: underline;
+  }
+  
+  .header .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #000;
+  }
+  
+  .header .subtitle {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .header .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background: #ff69b4;
+    text-decoration: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+  }
+  
+  
+  
+  /* Sessão Destaque */
+ .inicio {
+  display: inline-flex;
+  background-color: #ffa4d2;
+
+ }
+  
+  /* Rodapé */
+  .footer {
+    text-align: center;
+    padding: 20px 10px;
+    background: #ff69b4;
+    color: #fff;
+  }
